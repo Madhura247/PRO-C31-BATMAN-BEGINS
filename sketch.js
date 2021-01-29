@@ -19,5 +19,10 @@ function setup(){
 function draw(){
  
     background(0);
-    drop.display();
+    
+    var maxDrops=100;
+      for(var i=0; i<maxDrops; i++) {
+          this.push(new Drops(random(0, 400), random(0, 400)));
+      }
 }   
+
