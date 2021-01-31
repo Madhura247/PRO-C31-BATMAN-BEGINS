@@ -6,7 +6,7 @@ class Drops {
       this.body = Bodies.circle(x,y,r, options);
       this.x = x;
       this.y = y;
-      this.r = r;
+      this.r = 5;
       World.add(world, this.body);
     }
 
