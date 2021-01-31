@@ -11,7 +11,7 @@ function setup(){
     createCanvas(400,700);
     engine = Engine.create();
     world = engine.world;
-    drop = new Drops(120, 450, 1);
+    drop = new Drops(120, 450);
    
     
 }
