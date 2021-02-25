@@ -1,5 +1,5 @@
 class Drops {
-    constructor(x,y, r) {
+    constructor(x,y) {
       var options = {
           friction : 0.1,
       }  
